@@ -1,0 +1,113 @@
+{
+    "success": true,
+    "body": [
+        {
+            "_id": "5f80ccd641785ba7c7d27b58",
+            "type": "programming",
+            "setup": "What's the best thing about a Boolean?",
+            "punchline": "Even if you're wrong, you're only off by a bit."
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b59",
+            "type": "programming",
+            "setup": "What's the object-oriented way to become wealthy?",
+            "punchline": "Inheritance"
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b5a",
+            "type": "programming",
+            "setup": "Where do programmers like to hangout?",
+            "punchline": "The Foo Bar."
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b5b",
+            "type": "programming",
+            "setup": "Why did the programmer quit his job?",
+            "punchline": "Because he didn't get arrays."
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b60",
+            "type": "programming",
+            "setup": "Why do programmers always mix up Halloween and Christmas?",
+            "punchline": "Because Oct  == Dec "
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b61",
+            "type": "programming",
+            "setup": "A SQL query walks into a bar, walks up to two tables and asks...",
+            "punchline": "'Can I join you?'"
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b62",
+            "type": "programming",
+            "setup": "How many programmers does it take to change a lightbulb?",
+            "punchline": "None that's a hardware problem"
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b63",
+            "type": "programming",
+            "setup": "If you put a million monkeys at a million keyboards, one of them will eventually write a Java program",
+            "punchline": "the rest of them will write Perl"
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b64",
+            "type": "programming",
+            "setup": "['hip', 'hip']",
+            "punchline": "(hip hip array)"
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b65",
+            "type": "programming",
+            "setup": "To understand what recursion is...",
+            "punchline": "You must first understand what recursion is"
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b66",
+            "type": "programming",
+            "setup": "There are  types of people in this world...",
+            "punchline": "Those who understand binary and those who don't"
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b6a",
+            "type": "programming",
+            "setup": "Which song would an exception sing?",
+            "punchline": "Can't catch me - Avicii"
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b6c",
+            "type": "programming",
+            "setup": "Why do Java programmers wear glasses?",
+            "punchline": "Because they don't C#"
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b81",
+            "type": "programming",
+            "setup": "How do you check if a webpage is HTML?",
+            "punchline": "Try it out on Internet Explorer"
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b85",
+            "type": "programming",
+            "setup": "A user interface is like a joke.",
+            "punchline": "If you have to explain it then it is not that good."
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b91",
+            "type": "programming",
+            "setup": "I was gonna tell you a joke about UDP...",
+            "punchline": "...but you might not get it."
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b92",
+            "type": "programming",
+            "setup": "The punchline often arrives before the set-up.",
+            "punchline": "Do you know the problem with UDP jokes?"
+        },
+        {
+            "_id": "5f80ccd641785ba7c7d27b93",
+            "type": "programming",
+            "setup": "Why do C# and Java developers keep breaking their keyboards?",
+            "punchline": "Because they use a strongly typed language."
+        }
+    ]
+}
