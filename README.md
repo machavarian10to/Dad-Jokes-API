@@ -2,11 +2,11 @@
 Dad Jokes - "მამიკოს შუტკები"
 
 ## ხუმრობის ტიპები / Joke Types:
-- პროგრამირება / Programming
+- Programming
 
-- რომელი ხარ? / Knock-Knock
+- Knock-Knock
 
-- ზოგადი / General
+- General
 <br>
 
 *`შენიშვნა:ეს API უფასოა მხოლოდ 50 დღე`*
