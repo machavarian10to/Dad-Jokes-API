@@ -11,7 +11,6 @@ cur.execute('''CREATE TABLE IF NOT EXISTS jokes
                setup VARCHAR(40),
                punchline VARCHAR(40)
                )''')
-conn.commit()
 
 t = int(input("შეიყვანე რიცხვი ხუმრობის ტიპის მიხედვით - (1=Programming, 2=Knock-knock, +3=General): "))
 if t == 1:
