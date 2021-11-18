@@ -1,4 +1,3 @@
-
 import requests
 import json
 import sqlite3
@@ -12,15 +11,15 @@ cur.execute('''CREATE TABLE IF NOT EXISTS jokes
                punchline VARCHAR(40)
                )''')
 
-t = int(input("შეიყვანე რიცხვი ხუმრობის ტიპის მიხედვით - (1=Programming, 2=Knock-knock, +3=General): "))
-if t == 1:
-    ty = 'programming'
-elif t == 2:
-    ty = 'knock-knock'
+userInput = int(input("შეიყვანე რიცხვი ხუმრობის ტიპის მიხედვით - 1=Programming, 2=Knock-knock, +3=General : "))
+if userInput == 1:
+    jokeType = 'programming'
+elif userInput == 2:
+    jokeType = 'knock-knock'
 else:
-    ty = 'general'
+    jokeType = 'general'
 
-url = f"https://dad-jokes.p.rapidapi.com/joke/type/{ty}"
+url = f"https://dad-jokes.p.rapidapi.com/joke/type/{jokeType}"
 
 headers = {
     'x-rapidapi-key': "bee210a987mshb678b89635fc908p125930jsn1f1e186bbe0b",
@@ -28,26 +27,9 @@ headers = {
     }
 
 resp = requests.get(url, headers=headers)
-
-# დავალება 1
-# print(resp)
-# print(resp.text)
-# print(resp.headers)
-# print(resp.status_code)
-
-# დავალება 2,3
-# res = resp.json()
-# with open('jokes.json', 'w') as f:
-#     json.dump(res,f, indent=4)
-#
-# print(res['body'][0]['setup'])
-# print(res['body'][0]['punchline'])
-
-# დავალება 4
 res = resp.json()
 with open('jokes.json', 'w') as f:
     json.dump(res,f, indent=4)
-
 lst = []
 for i in res['body']:
     type = i['type']
@@ -55,7 +37,6 @@ for i in res['body']:
     punchline = i['punchline']
     data = (type,setup,punchline)
     lst.append(data)
-
 
 conn.executemany('''INSERT INTO jokes (type,setup,punchline) VALUES(?,?,?)''', lst)
 conn.commit()
