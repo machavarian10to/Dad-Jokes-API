@@ -38,8 +38,8 @@ for i in responseJson['body']:
     data = (type,setup,punchline)
     jokesList.append(data)
 
-conn.executemany('''INSERT INTO jokes (type,setup,punchline) VALUES(?,?,?)''', jokesList)
-conn.commit()
-conn.close()
+connection.executemany('''INSERT INTO jokes (type,setup,punchline) VALUES(?,?,?)''', jokesList)
+connection.commit()
+connection.close()
 
 
