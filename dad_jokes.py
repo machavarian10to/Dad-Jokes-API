@@ -12,6 +12,7 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS jokes
                )''')
 
 userInput = int(input("Enter the number by joke type: 1 = Programming, 2 = Knock-knock, +3 = General : "))
+
 if userInput == 1:
     jokeType = 'programming'
 elif userInput == 2:
@@ -30,6 +31,7 @@ response = requests.get(url, headers=headers)
 responseJson = response.json()
 with open('jokes.json', 'w') as f:
     json.dump(responseJson, f, indent=4)
+    
 jokesList = []
 for i in responseJson['body']:
     type = i['type']
