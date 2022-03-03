@@ -1,7 +1,7 @@
 # Dad-Jokes-API
 Dad Jokes - "მამიკოს შუტკები"
 
-## ხუმრობის ტიპები / Joke Types:
+## Joke Types:
 - Programming
 
 - Knock-Knock
